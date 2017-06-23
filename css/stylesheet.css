@@ -65,6 +65,10 @@ header {
     .mainBody {
         margin: 10px !important;
     }
+
+    .upArrow {
+        margin: 10px !important;
+    }
 }
 
 .headerName {
@@ -87,15 +91,48 @@ header {
 }
 
 .mainBody {
+    display: flex;
+    flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
     align-self: center;
 }
 
-p {
+#bodyHeader {
+    display: flex;
+    order: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upArrow {
+    display: none;
+    align-self: center;
+}
+
+.bodyTitle {
+    display: inline-block;
+}
+
+.bodyText {
+    order: 2;
     max-width: 600px;
     text-align: justify;
-    text-align-last: center;
+    text-align-last: left;
+}
+
+#miscHeader {
+    display: flex;
+    order: 3;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miscText {
+    order: 4;
+    max-width: 600px;
+    text-align: justify;
+    text-align-last: left;
 }
 
 ul {
@@ -111,6 +148,7 @@ li {
 
 .navLink {
     text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .navLink span {

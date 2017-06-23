@@ -17,3 +17,12 @@ $(document).on('click', '.scrollTop', function(e) {
     }, 500
     );
 });
+
+$(document).scroll(function() {
+    var y = $(this).scrollTop();
+    if (y > 200) {
+        $('.upArrow').fadeIn();
+    } else {
+        $('.upArrow').fadeOut();
+    }
+});
