@@ -358,14 +358,10 @@ header {
 .miscText {
     order: 9;
     max-width: 980px;
-    text-align: justify;
-    text-align-last: left;
     font-weight: 300 !important;
-}
-
-.miscText p {
-    margin-top: 0;
-    margin-bottom: 20px;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
 }
 
 .contactList {
@@ -375,7 +371,7 @@ header {
 }
 
 .contactItem {
-    padding: 20px 0 20px 0;
+    padding: 10px 0 10px 0;
 }
 
 .webLink {
