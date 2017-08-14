@@ -302,7 +302,7 @@ header {
     padding: 0 10px 0 0;
 }
 
-#projectsHeader {
+#workHeader {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -313,8 +313,32 @@ header {
     justify-content: space-between;
 }
 
-#projectsList {
+#workText {
     order: 7;
+}
+
+.workList {
+    list-style: none;
+    padding: 0;
+}
+
+.workMisc {
+    font-size: 14px;
+}
+
+#projectsHeader {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    order: 8;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#projectsList {
+    order: 9;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -349,14 +373,14 @@ header {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    order: 8;
+    order: 10;
     flex-direction: row;
     justify-content: space-between;
     font-weight: 800 !important;
 }
 
 .miscText {
-    order: 9;
+    order: 11;
     max-width: 980px;
     font-weight: 300 !important;
     vertical-align: middle;
