@@ -71,8 +71,12 @@ header {
         min-height: 48px !important;
     }
 
-    li {
-        padding: 5px 5px 5px 5px !important;
+    .menuItem {
+        padding: 5px 2px !important;
+    }
+    
+    .skillsItem {
+        font-size: 18px;
     }
 
     .footerText {
@@ -98,7 +102,7 @@ header {
     }
 
     .menuItem {
-        padding: 10px 10px 10px 10px !important;
+        padding: 10px 5px !important;
     }
 
     .footerText {
