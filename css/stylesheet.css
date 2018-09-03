@@ -174,7 +174,6 @@ aside {
 }
 
 .project-image {
-    height: 100%;
     width: 100%;
     border-radius: 4px;
     -webkit-box-shadow: 0 9px 14px 0 rgba(42, 40, 65, 0.09);
