@@ -12,12 +12,14 @@ import Projects from './components/projects';
 class App extends React.Component {
     render() {
         return (
-            <Router>
-                <Route path="/" exact component={Home}/>
-                <Route path="/about" component={About}/>
-                <Route path="/contact" component={Contact}/>
-                <Route path="/projects" component={Projects}/>
-            </Router>
+            <div className="container">
+                <Router>
+                    <Route path="/" exact component={Home}/>
+                    <Route path="/about" component={About}/>
+                    <Route path="/contact" component={Contact}/>
+                    <Route path="/projects" component={Projects}/>
+                </Router>
+            </div>
         );
     }
 }

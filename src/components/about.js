@@ -3,9 +3,11 @@ import Header from './header';
 export default class About extends React.Component {
     render() {
         return (
-            <div>
+            <div className="text-center">
                 <Header/>
-                About
+                <div className="center fadein">
+                    <h1>About</h1>
+                </div>
             </div>
         );
     }
