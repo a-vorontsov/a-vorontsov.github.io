@@ -1,0 +1,59 @@
+[
+    {
+        "name": "git-gud",
+        "url": "https://github.com/a-vorontsov/git-gud",
+        "weburl": "https://git-gud.org",
+        "technologies": ["golang", "StackExchange API"],
+        "image": "/public/images/git-gud.png",
+        "desc": "CLI tool"
+    },
+    {
+        "name": "SashaMaps",
+        "url": "https://github.com/a-vorontsov/SashaMaps",
+        "technologies": ["React-Native", "GoogleMaps API", "Node.js"],
+        "image": "https://raw.githubusercontent.com/a-vorontsov/SashaMaps/master/SashaMaps_Logo/web_hi_res_512.png",
+        "desc": "Android App"
+    },
+    {
+        "name": "Receiptful",
+        "url": "https://github.com/a-vorontsov/Receiptful",
+        "technologies": ["React", "Google Cloud Vision API", "Node.js"],
+        "image": "https://raw.githubusercontent.com/a-vorontsov/SashaMaps/master/SashaMaps_Logo/web_hi_res_512.png",
+        "desc": "Web App"
+    },
+    {
+        "name": "FilmSpottr",
+        "url": "https://github.com/a-vorontsov/FilmSpottr",
+        "technologies": ["React", "GoogleMaps API", "Python", "IMDB"],
+        "image": "https://raw.githubusercontent.com/a-vorontsov/SashaMaps/master/SashaMaps_Logo/web_hi_res_512.png",
+        "desc": "Web App"
+    },
+    {
+        "name": "Shirt-or-not-Shirt",
+        "url": "https://github.com/a-vorontsov/shirt-or-not-shirt",
+        "technologies": ["React", "Microsoft Azure Cloud Vision API", "Node.js"],
+        "image": "/public/images/shirt-or-not-shirt.png",
+        "desc": "Web App"
+    },
+    {
+        "name": "Particle",
+        "url": "https://github.com/a-vorontsov/Particle",
+        "technologies": ["C#", "Unity"],
+        "image": "https://raw.githubusercontent.com/a-vorontsov/SashaMaps/master/SashaMaps_Logo/web_hi_res_512.png",
+        "desc": "Desktop Game"
+    },
+    {
+        "name": "RockPaperSplat-web",
+        "url": "https://github.com/a-vorontsov/rockpapersplat-web",
+        "technologies": ["HTML Canvas", "JavaScript"],
+        "image": "https://raw.githubusercontent.com/a-vorontsov/SashaMaps/master/SashaMaps_Logo/web_hi_res_512.png",
+        "desc": "Website"
+    },
+    {
+        "name": "GoLink",
+        "url": "https://github.com/a-vorontsov/golink",
+        "technologies": ["angular", "Google Firebase", "Ionic", "Cordova"],
+        "image": "https://raw.githubusercontent.com/a-vorontsov/SashaMaps/master/SashaMaps_Logo/web_hi_res_512.png",
+        "desc": "Mobile App"
+    }
+]

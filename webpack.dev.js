@@ -1,9 +1,9 @@
 require("@babel/polyfill");
 const path = require("path");
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-    mode: "production",
+    devtool: "inline-source-map",
+    mode: "development",
     entry: {
         main: ["@babel/polyfill","./src/index.js"]
     },
@@ -25,8 +25,10 @@ module.exports = {
         'react': 'React',
         'react-dom': 'ReactDOM'
     },
-    optimization: {
-        minimize: true,
-        minimizer: [new UglifyJsPlugin()],
-    },
+    devServer: {
+        open: false,
+        port: '5000',
+        host: '0.0.0.0',
+        historyApiFallback: true
+    }
 }

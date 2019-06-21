@@ -12,7 +12,7 @@ import Projects from './components/projects';
 class App extends React.Component {
     render() {
         return (
-            <div className="container">
+            <div className="container-fluid">
                 <Router>
                     <Route path="/" exact component={Home}/>
                     <Route path="/about" component={About}/>

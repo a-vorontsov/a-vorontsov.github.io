@@ -75,19 +75,27 @@ export default class EmailForm extends React.Component {
         const styles = (fadeout) ? "fadeout" : "fadein";
         return (
             <div>
-                <Text type="email"
-                      field="email"
-                      placeholder="Your email"
-                      value={email || ""}
-                      error="Incorrect email format"
-                      validateFn={(value) => this.testEmail(value)}
-                      context={this}/>
-                <Text type="text"
-                      multiline
-                      field="message"
-                      placeholder="Your message"
-                      value={message || ""}
-                      context={this}/>
+                <div className="row">
+                    <div className="col-12">
+                        <Text type="email"
+                              field="email"
+                              placeholder="Your email"
+                              value={email}
+                              error="Incorrect email format"
+                              validateFn={(value) => this.testEmail(value)}
+                              context={this}/>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12">
+                        <Text type="text"
+                              multiline
+                              field="message"
+                              placeholder="Your message"
+                              value={message}
+                              context={this}/>
+                    </div>
+                </div>
                 {
                     (() => {
                         if (!!success) {
@@ -95,7 +103,7 @@ export default class EmailForm extends React.Component {
                         } else if (!!error) {
                             return <span className={styles}><span className="error">{error}</span></span>
                         } else {
-                            return <button className="fadein" name="submit" value="submit" disabled={!this.testEmail(email)} onClick={this.onSubmit}>submit</button>;
+                            return <button className="fadein pink" name="submit" value="submit" disabled={!this.testEmail(email)} onClick={this.onSubmit}>submit</button>;
                         }
                     })()
                 }

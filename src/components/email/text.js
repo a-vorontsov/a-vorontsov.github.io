@@ -10,9 +10,9 @@ export default class Text extends React.Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        if (nextProps.value) {
+        if (nextProps.value !== this.state.value) {
             const value = nextProps.value;
-            this.setState({value})
+            this.setState({value});
         }
     }
 
