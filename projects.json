@@ -1,0 +1,66 @@
+[
+    {
+        "name": "git-gud",
+        "url": "https://github.com/a-vorontsov/git-gud",
+        "weburl": "https://git-gud.org",
+        "technologies": ["golang", "StackExchange API"],
+        "image": "/public/images/git-gud.png",
+        "desc": "CLI tool"
+    },
+    {
+        "name": "SashaMaps",
+        "url": "https://github.com/a-vorontsov/SashaMaps",
+        "technologies": ["React-Native", "GoogleMaps API", "Node.js"],
+        "image": "/public/images/sashamaps.png",
+        "desc": "Android App"
+    },
+    {
+        "name": "Receiptful",
+        "url": "https://github.com/a-vorontsov/Receiptful",
+        "technologies": ["React", "Google Cloud Vision API", "Node.js", "express"],
+        "image": "/public/images/receiptful.png",
+        "desc": "Web App"
+    },
+    {
+        "name": "IllustrAIte",
+        "url": "https://github.com/a-vorontsov/IllustrAIte-Front-End",
+        "technologies": ["React", "Node.js"],
+        "image": "/public/images/illustraite.jpg",
+        "desc": "Web App/Game"
+    },
+    {
+        "name": "FilmSpottr",
+        "url": "https://github.com/a-vorontsov/FilmSpottr",
+        "technologies": ["React", "GoogleMaps API", "Python", "IMDB"],
+        "image": "/public/images/filmspottr.png",
+        "desc": "Web App"
+    },
+    {
+        "name": "Shirt-or-not-Shirt",
+        "url": "https://github.com/a-vorontsov/shirt-or-not-shirt",
+        "technologies": ["React", "Microsoft Azure Cloud Vision API", "Node.js"],
+        "image": "/public/images/shirt-or-not-shirt.png",
+        "desc": "Web App"
+    },
+    {
+        "name": "Particle",
+        "url": "https://github.com/a-vorontsov/Particle",
+        "technologies": ["C#", "Unity"],
+        "image": "/public/images/particle.png",
+        "desc": "Desktop Game"
+    },
+    {
+        "name": "RockPaperSplat-web",
+        "url": "https://github.com/a-vorontsov/rockpapersplat-web",
+        "technologies": ["HTML Canvas", "JavaScript"],
+        "image": "/public/images/rps.png",
+        "desc": "Web Page"
+    },
+    {
+        "name": "GoLink",
+        "url": "https://github.com/a-vorontsov/golink",
+        "technologies": ["AngularJS", "Google Firebase", "Ionic", "Cordova"],
+        "image": "/public/images/golink.png",
+        "desc": "Mobile App"
+    }
+]
