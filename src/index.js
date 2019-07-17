@@ -13,7 +13,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="container-fluid">
-                <Router>
+                <Router basename={process.env.PUBLIC_URL}>
                     <Route path="/" exact component={Home}/>
                     <Route path="/about" component={About}/>
                     <Route path="/contact" component={Contact}/>
