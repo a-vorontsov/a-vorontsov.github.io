@@ -502,6 +502,16 @@ button.purple {
     filter: blur(6px);
 }
 
+/* iOS Safari fix */
+
+.card:hover:active .card-img-overlay {
+    opacity: 1;
+}
+
+.card:hover:active .card-img {
+    filter: blur(6px);
+}
+
 .project-code {
     padding: 2px;
 }
