@@ -18,7 +18,7 @@ export default class Projects extends React.Component {
             <div className="text-center">
                 <Header/>
                 <div className="vertical-center fadein">
-                    <div className="horizontal-center col-12 col-md-10 col-md-offset-1">
+                    <div className="horizontal-center col-12 col-md-8 col-md-offset-2">
                         <h1>Projects</h1>
                         <div className="row">
                             {

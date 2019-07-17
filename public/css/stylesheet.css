@@ -32,6 +32,7 @@
 * {
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
     font-family: 'Quicksand', sans-serif;
@@ -169,6 +170,10 @@ aside {
     h3, .h3, h4, .h4 {
         font-size: 1em;
     }
+}
+
+.disabled {
+    pointer-events: none;
 }
 
 .header {
@@ -503,7 +508,6 @@ button.purple {
 }
 
 /* iOS Safari fix */
-
 .card:hover:active .card-img-overlay {
     opacity: 1;
 }
