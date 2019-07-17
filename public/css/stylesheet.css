@@ -508,7 +508,8 @@ button.purple {
 }
 
 /* iOS Safari fix */
-.card:hover:active .card-img-overlay {
+.card:active .card-img-overlay,
+.card:focus .card-img-overlay {
     opacity: 1;
 }
 
