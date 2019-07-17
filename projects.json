@@ -2,7 +2,7 @@
     {
         "name": "git-gud",
         "url": "https://github.com/a-vorontsov/git-gud",
-        "weburl": "https://git-gud.vorontsov.co.uk",
+        "weburl": "http://git-gud.vorontsov.co.uk/",
         "technologies": ["golang", "StackExchange API"],
         "image": "/public/images/git-gud.png",
         "desc": "CLI tool"
