@@ -27,21 +27,18 @@ export default class Project extends React.Component {
                 <div className="card bg-white">
                     <div className="card-body">
                         <img src={project.image} className="card-img" alt="..."/>
-                        <div onMouseEnter={this.handleHoverOn} onMouseLeave={this.handleHoverOff} onBlur={this.handleHoverOff} onFocus={this.handleHoverOn} className="card-img-overlay project-content text-left">
-                            <h3 className="project-title">
-                                <a href={(!!project.weburl) ? project.weburl : project.url} target="_blank" className={`${classNames} semi-bold`}>{project.name}</a>
-                            </h3>
-                            {
-                                (!!project.weburl) ?
-                                <a href={project.url} target="_blank" className={classNames}>Github repo</a>
-                                :
-                                null
-                            }
-                            <p>{project.desc}</p>
+                        <div onMouseEnter={this.handleHoverOn} onMouseLeave={this.handleHoverOff} onBlur={this.handleHoverOff} onFocus={this.handleHoverOn} className="card-img-overlay text-center ">
                             <div>
+                                <h3 className="project-title">
+                                    <a href={(!!project.weburl) ? project.weburl : project.url} target="_blank" className={`${classNames} semi-bold`}>{project.name}</a>
+                                </h3>
                                 {
-                                    project.technologies.map(t => <code key={t} className="project-code">{t}</code>)
+                                    (!!project.weburl) ?
+                                    <a href={project.url} target="_blank" className={classNames}>Github repo</a>
+                                    :
+                                    null
                                 }
+                                <p>{project.desc}</p>
                             </div>
                         </div>
                     </div>

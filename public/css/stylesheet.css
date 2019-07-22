@@ -63,11 +63,6 @@ h1, h2, h3, h4, h5, h6, p, a, aside {
     margin-top: 0;
 }
 
-code {
-    font-family: 'Inconsolata', 'monospace';
-    color: #DA4167 !important;
-}
-
 h1, .h1 {
     font-size: 3em;
     font-weight: 400;
@@ -159,19 +154,6 @@ aside {
     }
 }
 
-@media (max-width: 575.98px) {
-    h1, .h1 {
-        font-size: 2em;
-        padding: 0 16px;
-    }
-    h2, .h2 {
-        font-size: 1.25em;
-    }
-    h3, .h3, h4, .h4 {
-        font-size: 1em;
-    }
-}
-
 .disabled {
     pointer-events: none;
 }
@@ -198,20 +180,20 @@ aside {
 }
 
 .gradient-text {
+    color: #7367F0;
     background: -webkit-linear-gradient( 45deg, #CE9FFC 0%, #7367F0 100%);
     background: -moz-linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
     background: -ms-linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
     background: -o-linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
     background: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
     -webkit-text-fill-color: transparent !important;
-    color: transparent !important;
     -webkit-background-clip: text !important;
     background-clip: text !important;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    user-select: none;
     -o-user-select: none;
+    user-select: none;
 }
 
 .vertical-center {
@@ -491,12 +473,15 @@ button.purple {
 }
 
 .card-img-overlay {
+    display: flex;
     height: 100%;
     background-color: rgba(97, 109, 131, 0.5);
     bottom: 0;
     font-size: 0.8em;
     opacity: 0;
     padding: 2em;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover .card-img-overlay {
@@ -513,20 +498,7 @@ button.purple {
     opacity: 1;
 }
 
-.card:hover:active .card-img {
+.card:focus .card-img,
+.card:active .card-img {
     filter: blur(6px);
-}
-
-.project-code {
-    padding: 2px;
-}
-
-.project-code:first-child {
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.project-code:last-child {
-    padding-right: 0;
-    margin-right: 0;
 }
