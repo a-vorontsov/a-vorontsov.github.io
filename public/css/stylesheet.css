@@ -30,11 +30,11 @@
 /* Main */
 
 * {
-    -webkit-transition: all 300ms ease;
-    -moz-transition: all 300ms ease;
-    -ms-transition: all 300ms ease;
-    -o-transition: all 300ms ease;
-    transition: all 300ms ease;
+    -webkit-transition: all 700ms ease;
+    -moz-transition: all 700ms ease;
+    -ms-transition: all 700ms ease;
+    -o-transition: all 700ms ease;
+    transition: all 700ms ease;
     font-family: 'Quicksand', sans-serif;
     font-display: block;
     -webkit-box-sizing: border-box;
@@ -188,7 +188,6 @@ aside {
     background: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
     -webkit-text-fill-color: transparent !important;
     -webkit-background-clip: text !important;
-    background-clip: text !important;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -244,11 +243,11 @@ aside {
 }
 
 .fadein {
-    animation: fadeIn 0.5s ease forwards;
+    animation: fadeIn 700ms ease forwards;
 }
 
 .fadeout {
-    animation: fadeOut 0.5s ease forwards;
+    animation: fadeOut 700ms ease forwards;
 }
 
 @keyframes fadeIn {
@@ -272,10 +271,10 @@ aside {
 .nav-link a {
     display: inline-block;
     text-decoration: none;
-    -webkit-transition: color .2s ease;
-    -moz-transition: color .2s ease;
-    -o-transition: color .2s ease;
-    transition: color .2s ease;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
     padding-bottom: 2px;
     position: relative;
     border-bottom: 2px solid transparent;
@@ -289,10 +288,10 @@ aside {
     bottom: 0;
     height: 2px;
     width: 0;
-    -webkit-transition: width 0s ease, background .2s ease;
-    -moz-transition: width 0s ease, background .2s ease;
-    -o-transition: width 0s ease, background .2s ease;
-    transition: width 0s ease, background .2s ease;
+    -webkit-transition: width 0s ease, background .3s ease;
+    -moz-transition: width 0s ease, background .3s ease;
+    -o-transition: width 0s ease, background .3s ease;
+    transition: width 0s ease, background .3s ease;
 }
 
 .nav-link a:after {
@@ -304,25 +303,25 @@ aside {
     height: 2px;
     width: 0;
     background: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
-    -webkit-transition: width .2s ease;
-    -moz-transition: width .2s ease;
-    -o-transition: width .2s ease;
-    transition: width .2s ease;
+    -webkit-transition: width .3s ease;
+    -moz-transition: width .3s ease;
+    -o-transition: width .3s ease;
+    transition: width .3s ease;
 }
 
 .nav-link a:hover:before {
     width: 100%;
     background: linear-gradient( 135deg, #CE9FFC 0%, #7367F0 100%);
-    -webkit-transition: width .2s ease;
-    -moz-transition: width .2s ease;
-    -o-transition: width .2s ease;
-    transition: width .2s ease;
+    -webkit-transition: width .3s ease;
+    -moz-transition: width .3s ease;
+    -o-transition: width .3s ease;
+    transition: width .3s ease;
 }
 
 .nav-link a:hover:after {
     width: 100%;
     background: transparent;
-    transition-delay: .2s;
+    transition-delay: .3s;
     -webkit-transition: all 0s ease;
     -moz-transition: all 0s ease;
     -o-transition: all 0s ease;
