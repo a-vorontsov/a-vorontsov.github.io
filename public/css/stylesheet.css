@@ -501,3 +501,12 @@ button.purple {
 .card:active .card-img {
     filter: blur(6px);
 }
+
+footer {
+    font-size: 0.75em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
+    margin-top: -2em;
+}

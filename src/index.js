@@ -19,6 +19,7 @@ class App extends React.Component {
                     <Route path="/contact" component={Contact}/>
                     <Route path="/projects" component={Projects}/>
                 </Router>
+                <footer className="fadein footer text-center">Copyright© {new Date().getFullYear()}, Aleksandr Vorontsov</footer>
             </div>
         );
     }
