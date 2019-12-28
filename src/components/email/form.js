@@ -35,7 +35,6 @@ export default class EmailForm extends React.Component {
 
     async sendReq() {
         const res = await request.post(webform)
-                                 .set("Access-Control-Allow-Origin", "https://vorontsov.co.uk")
                                  .set("Accept", "application/json")
                                  .send(this.state.request);
         this.displayResponseStatus(res.statusType)
