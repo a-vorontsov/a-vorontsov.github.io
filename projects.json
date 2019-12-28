@@ -1,5 +1,11 @@
 [
     {
+        "name": "weather",
+        "url": "https://github.com/a-vorontsov/weather-cli",
+        "image": "/public/images/weather.png",
+        "desc": "CLI tool"
+    },
+    {
         "name": "git-gud",
         "url": "https://github.com/a-vorontsov/git-gud",
         "weburl": "https://git-gud.vorontsov.co.uk/",
