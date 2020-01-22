@@ -1,7 +1,8 @@
 [
     {
         "name": "weather",
-        "url": "https://github.com/a-vorontsov/weather-cli",
+        "url": "https://github.com/a-vorontsov/weather",
+        "weburl": "https://weather.vorontsov.co.uk/",
         "image": "/public/images/weather.png",
         "desc": "CLI tool"
     },
