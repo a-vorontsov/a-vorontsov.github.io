@@ -2,7 +2,7 @@
 Testing and portfolio website
 
 ## Technical Details
-The current version of the website is using react and webpack.
+The current version of the website is using cra.
 
 ## Installation and Development
 - Clone repo

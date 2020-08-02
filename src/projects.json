@@ -3,65 +3,65 @@
         "name": "weather",
         "url": "https://github.com/a-vorontsov/weather",
         "weburl": "https://weather.vorontsov.co.uk/",
-        "image": "/public/images/weather.png",
+        "image": "/images/weather.webp",
         "desc": "CLI tool"
     },
     {
         "name": "git-gud",
         "url": "https://github.com/a-vorontsov/git-gud",
         "weburl": "https://git-gud.vorontsov.co.uk/",
-        "image": "/public/images/git-gud.png",
+        "image": "/images/git-gud.webp",
         "desc": "CLI tool"
     },
     {
         "name": "SashaMaps",
         "url": "https://github.com/a-vorontsov/SashaMaps",
-        "image": "/public/images/sashamaps.png",
+        "image": "/images/sashamaps.webp",
         "desc": "Android App"
     },
     {
         "name": "Receiptful",
         "url": "https://github.com/a-vorontsov/Receiptful",
-        "image": "/public/images/receiptful.png",
+        "image": "/images/receiptful.webp",
         "desc": "Web App"
     },
     {
         "name": "IllustrAIte",
         "url": "https://github.com/a-vorontsov/IllustrAIte-Front-End",
-        "image": "/public/images/illustraite.jpg",
+        "image": "/images/illustraite.webp",
         "desc": "Web App/Game"
     },
     {
         "name": "FilmSpottr",
         "url": "https://github.com/a-vorontsov/FilmSpottr",
         "weburl": "https://filmspottr.vorontsov.co.uk",
-        "image": "/public/images/filmspottr.png",
+        "image": "/images/filmspottr.webp",
         "desc": "Web App"
     },
     {
         "name": "Shirt-or-not-Shirt",
         "url": "https://github.com/a-vorontsov/shirt-or-not-shirt",
         "weburl": "https://ichack.vorontsov.co.uk",
-        "image": "/public/images/shirt-or-not-shirt.png",
+        "image": "/images/shirt-or-not-shirt.webp",
         "desc": "Web App"
     },
     {
         "name": "Particle",
         "url": "https://github.com/a-vorontsov/Particle",
-        "image": "/public/images/particle.png",
+        "image": "/images/particle.webp",
         "desc": "Desktop Game"
     },
     {
         "name": "RockPaperSplat-web",
         "url": "https://github.com/a-vorontsov/rockpapersplat-web",
         "weburl": "https://rockpapersplat.vorontsov.co.uk",
-        "image": "/public/images/rps.png",
+        "image": "/images/rps.webp",
         "desc": "Web Page"
     },
     {
         "name": "GoLink",
         "url": "https://github.com/a-vorontsov/golink",
-        "image": "/public/images/golink.png",
+        "image": "/images/golink.webp",
         "desc": "Mobile App"
     }
 ]
