@@ -88,7 +88,7 @@ export default class EmailForm extends React.Component {
   }
 
   testEmail(email) {
-    return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(
+    return /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(
       email.toLowerCase()
     );
   }
