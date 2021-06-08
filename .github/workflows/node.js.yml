@@ -19,6 +19,7 @@ jobs:
     - run: git config user.name "Aleksandr Vorontsov" && git config user.email "aleksandr@vorontsov.co.uk"
     - run: npm ci
     - run: npm run predeploy
+    - run: echo "vorontsov.co.uk" > build/CNAME
     - run: npm run deploy
     env:
       GH_TOKEN: ${{secrets.SECRET_GITHUB_TOKEN}}
