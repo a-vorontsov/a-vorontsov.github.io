@@ -9,8 +9,10 @@ export default function About() {
         <div className="horizontal-center col-12 col-md-10 col-md-offset-1">
           <h2>About</h2>
           <p>
-            I am a Software Engineering Intern at Visa and First Class Honours BSc Computer Science graduate from King's College
-            London.
+            Software Engineering Intern at <a href="https://www.visa.co.uk/" target="_blank" rel="noopener noreferrer" className="purple">Visa</a>
+          </p>
+          <p>
+            First Class Honours BSc Computer Science graduate from King's College London.
           </p>
         </div>
       </div>
