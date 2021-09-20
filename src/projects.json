@@ -1,5 +1,11 @@
 [
     {
+        "name": "Aver",
+        "url": "https://github.com/a-vorontsov/aver",
+        "image": "/images/aver.webp",
+        "desc": "Language"
+    },
+    {
         "name": "weather",
         "url": "https://github.com/a-vorontsov/weather",
         "weburl": "https://weather.vorontsov.co.uk/",
