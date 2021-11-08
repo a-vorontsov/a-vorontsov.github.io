@@ -5,45 +5,226 @@
   <meta charset="UTF-8">
   <title>Aleksandr Vorontsov</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="keywords" content="Aleksandr,Vorontsov,London,UK,Developer,Web,Software,Engineer" />
-  <meta name="description" content="Aleksandr Vorontsov, Graduate Software Engineer at Visa" />
+  <meta name="keywords" content="Aleksandr Vorontsov,London,UK,Developer,Web,Software" />
+  <meta name="description" content="Aleksandr Vorontsov, Software Developer" />
   <meta property="og:title" content="Aleksandr Vorontsov" />
-  <meta property="og:description" content="Graduate Software Engineer at Visa" />
+  <meta property="og:description" content="Software Engineer" />
   <meta property="og:image" content="https://vorontsov.co.uk/public/images/AV-s.png" />
   <meta property="og:url" content="https://vorontsov.co.uk/" />
   <meta name="twitter:title" content="Aleksandr Vorontsov" />
-  <meta name="twitter:description" content="Graduate Software Engineer at Visa" />
+  <meta name="twitter:description" content="Software Engineer" />
   <meta name="twitter:image" content="https://vorontsov.co.uk/public/images/AV-s.png" />
-  <meta name="theme-color" content="#CE9FFC" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="#CE9FFC">
+  <meta name="theme-color" content="#7367f0" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#7367f0">
   <link rel="stylesheet" type="text/css" href="/css/stylesheet.min.css" media="all" async />
   <link rel="shortcut icon" type="image/png" href="/images/favicon.png" media="all" async />
-  <script type="text/javascript">
-    (function (l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) {
-          var a = v.split('=');
-          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (q.p || '') +
-            (q.q ? ('?' + q.q) : '') +
-            l.hash
-          );
-        }
-      }
-    }(window.location))
-  </script>
 
 <body>
-  <noscript>
-    <h1>Aleksandr Vorontsov</h1>
-    <h2>Graduate Software Engineer at Visa</h2>
-    <p>This website looks much better with JS enabled</p>
-  </noscript>
-  <div id="root"></div>
+  <div class="container-fluid">
+    <div class="header vertical-center">
+      <div class=" text-center horizontal-center">
+        <div class="gradient-text">
+          <h1>Aleksandr Vorontsov</h1>
+        </div>
+        <div class="p--8">
+          <p>
+            Graduate Software Engineer at <a href="https://www.visa.co.uk/" target="_blank" rel="noopener noreferrer"
+              class="purple bold">Visa</a>
+          </p>
+          <p>
+            <code>printf "%s@%s.co.uk" "aleksandr" "vorontsov"</code>
+          </p>
+        </div>
+        <div class="p--8">
+          <a class="purple h4 p--8 icon-link" target="_blank" rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/aleksvorontsov">
+            <img height="25" width="25" src="https://vorontsov.co.uk/images/linkedin.svg" alt="linkedin logo" />
+          </a>
+          <a class="purple h4 p--8 icon-link" target="_blank" rel="noopener noreferrer"
+            href="https://www.github.com/a-vorontsov">
+            <img height="25" width="25" src="https://vorontsov.co.uk/images/github.svg" alt="github logo" />
+          </a>
+          <a class="purple h4 p--8 icon-link" target="_blank" rel="noopener noreferrer"
+            href="/AleksandrVorontsov-CV.pdf">
+            <img height="25" width="25" src="https://vorontsov.co.uk/images/cv.svg" alt="CV logo" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="purple" style="width: 50%; filter: blur(1px);" />
+  <div class="container-fluid">
+    <div class="text-center">
+      <div class="vertical-center ">
+        <div class="horizontal-center col-12 col-md-8 col-md-offset-2">
+          <h1 class="p--16">Projects</h1>
+          <div class="row p--16">
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/aver.webp" class="card-img" alt="Aver">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://github.com/a-vorontsov/aver" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">Aver</a></h3>
+                      <p>Language</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/weather.webp" class="card-img" alt="weather">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://weather.vorontsov.co.uk/" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">weather</a></h3><a
+                        href="https://github.com/a-vorontsov/weather" target="_blank" rel="noopener noreferrer"
+                        class="purple disabled">Github
+                        repo</a>
+                      <p>CLI tool</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/git-gud.webp" class="card-img" alt="git-gud">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://git-gud.vorontsov.co.uk/" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">git-gud</a></h3><a
+                        href="https://github.com/a-vorontsov/git-gud" target="_blank" rel="noopener noreferrer"
+                        class="purple disabled">Github
+                        repo</a>
+                      <p>CLI tool</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/sashamaps.webp" class="card-img" alt="SashaMaps">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://github.com/a-vorontsov/SashaMaps" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">SashaMaps</a></h3>
+                      <p>Android App</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/receiptful.webp" class="card-img" alt="Receiptful">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://github.com/a-vorontsov/Receiptful" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">Receiptful</a></h3>
+                      <p>Web App</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/illustraite.webp" class="card-img" alt="IllustrAIte">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://github.com/a-vorontsov/IllustrAIte-Front-End"
+                          target="_blank" rel="noopener noreferrer" class="purple disabled semi-bold">IllustrAIte</a>
+                      </h3>
+                      <p>Web App/Game</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/filmspottr.webp" class="card-img" alt="FilmSpottr">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://filmspottr.vorontsov.co.uk" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">FilmSpottr</a></h3><a
+                        href="https://github.com/a-vorontsov/FilmSpottr" target="_blank" rel="noopener noreferrer"
+                        class="purple disabled">Github
+                        repo</a>
+                      <p>Web App</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/shirt-or-not-shirt.webp" class="card-img"
+                    alt="Shirt-or-not-Shirt">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://ichack.vorontsov.co.uk" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">Shirt-or-not-Shirt</a>
+                      </h3><a href="https://github.com/a-vorontsov/shirt-or-not-shirt" target="_blank"
+                        rel="noopener noreferrer" class="purple disabled">Github repo</a>
+                      <p>Web App</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/particle.webp" class="card-img" alt="Particle">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://github.com/a-vorontsov/Particle" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">Particle</a></h3>
+                      <p>Desktop Game</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/rps.webp" class="card-img" alt="RockPaperSplat-web">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://rockpapersplat.vorontsov.co.uk" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">RockPaperSplat-web</a>
+                      </h3><a href="https://github.com/a-vorontsov/rockpapersplat-web" target="_blank"
+                        rel="noopener noreferrer" class="purple disabled">Github repo</a>
+                      <p>Web Page</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 col-md-3 col-sm-4">
+              <div class="card bg-white">
+                <div class="card-body"><img src="/images/golink.webp" class="card-img" alt="GoLink">
+                  <div class="card-img-overlay text-center ">
+                    <div>
+                      <h3 class="project-title"><a href="https://github.com/a-vorontsov/golink" target="_blank"
+                          rel="noopener noreferrer" class="purple disabled semi-bold">GoLink</a></h3>
+                      <p>Mobile App</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class=" footer text-center">
+    Copyright© 2021, Aleksandr Vorontsov
+  </footer>
 </body>
 
 </html>
