@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <div class="vertical-center">
+      <div class="horizontal-center col-12 col-md-8 col-md-offset-2">
+        <h1 class="text-center p--16">Projects</h1>
+        <ul class="grid">
+          <% projects.forEach((project) => { %>
+          <%- include("project", {project}) -%>
+          <% }) %>
+        </ul>
+      </div>
+    </div>
+</div>
