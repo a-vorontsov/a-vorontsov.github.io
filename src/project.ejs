@@ -2,12 +2,12 @@
   <div class="card">
     <div class="card-body">
       <div class="card-header">
-        <h3 class="project-title">
+        <p class="h3 project-title">
           <a href="<%= !!project.weburl ? project.weburl : project.url %>" target="_blank" rel="noopener noreferrer"
             class="purple bold">
             <%= project.name %>
           </a>
-        </h3>
+        </p>
         <% if (!!project.weburl) { %>
         <a href="<%= project.url %>" target="_blank" rel="noopener noreferrer" class="purple bold">
           Github repo
