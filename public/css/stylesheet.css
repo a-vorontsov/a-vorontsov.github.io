@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://vorontsov.co.uk/fonts/quicksand-300.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://vorontsov.co.uk/fonts/quicksand-400.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://vorontsov.co.uk/fonts/quicksand-500.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://vorontsov.co.uk/fonts/quicksand-700.woff2) format('woff2');
+}
+
 :root {
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
