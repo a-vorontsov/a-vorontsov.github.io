@@ -1,5 +1,10 @@
 exports.array = [
   {
+    name: "CharGen",
+    url: "https://char-gen.com/",
+    desc: "Platform for generating AI character images based on D&D character sheets. Includes integration with AWS Cognito for user authentication and payments processing with Stripe. Built with React and TypeScript, and hosted on AWS."
+  },
+  {
     name: "Aver",
     url: "https://github.com/a-vorontsov/aver",
     desc: "Programming language developed as part of Bachelor's degree. Compiler developed in <a class='bold' href='https://ocaml.org/' target='_blank' rel='noopener noreferrer'>OCaml</a>, VM developed in <a class='bold' href='https://rpython.readthedocs.io/en/latest/' target='_blank' rel='noopener noreferrer'>RPython</a>",
