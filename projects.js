@@ -2,7 +2,7 @@ exports.array = [
   {
     name: "CharGen",
     url: "https://char-gen.com/",
-    desc: "Platform for generating AI character images based on D&D character sheets. Includes integration with AWS Cognito for user authentication and payments processing with Stripe. Built with React and TypeScript, and hosted on AWS."
+    desc: "Platform for generating AI character images based on D&D character sheets and custom prompts with over 500 active users,. Includes integration with AWS Cognito for user authentication and payments processing with Stripe. Built with Next.js, React and TypeScript, and hosted on AWS."
   },
   {
     name: "Aver",
