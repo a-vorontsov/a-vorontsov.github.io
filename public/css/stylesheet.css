@@ -64,7 +64,7 @@ body {
   line-height: 1.5;
   color: #2b303a;
   text-align: left;
-  background: #f1effd;
+  background: rgba(241, 239, 253, 0.01);
   background: linear-gradient(180deg, #f1effd 0%, #e3e0fc 100%);
 }
 
