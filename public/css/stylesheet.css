@@ -1,76 +1,71 @@
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://vorontsov.co.uk/fonts/quicksand-300.woff2) format('woff2');
+  src: url(https://vorontsov.co.uk/fonts/quicksand-300.woff2) format("woff2");
 }
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://vorontsov.co.uk/fonts/quicksand-400.woff2) format('woff2');
+  src: url(https://vorontsov.co.uk/fonts/quicksand-400.woff2) format("woff2");
 }
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://vorontsov.co.uk/fonts/quicksand-500.woff2) format('woff2');
+  src: url(https://vorontsov.co.uk/fonts/quicksand-500.woff2) format("woff2");
 }
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://vorontsov.co.uk/fonts/quicksand-700.woff2) format('woff2');
+  src: url(https://vorontsov.co.uk/fonts/quicksand-700.woff2) format("woff2");
 }
 
-:root {
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-
-*, ::after, ::before {
+* {
+  font-family: "Quicksand", sans-serif;
+  font-display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+}
+
+*:focus {
+  outline-color: #41dab4;
 }
 
 html {
-  font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 
-footer, header, main, nav {
+footer,
+header,
+main,
+nav {
   display: block;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.25rem;
+  font-weight: 500;
   line-height: 1.5;
-  color: #212529;
+  color: #2b303a;
   text-align: left;
-  background-color: #fff;
-}
-
-h1, h2, h3, h4 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  background: #f1effd;
+  background: linear-gradient(180deg, #f1effd 0%, #e3e0fc 100%);
 }
 
 a {
@@ -88,7 +83,8 @@ a:not([href]):not([tabindex]) {
   text-decoration: none;
 }
 
-a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
   color: inherit;
   text-decoration: none;
 }
@@ -107,32 +103,39 @@ svg {
   vertical-align: middle;
 }
 
-.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
-  margin-bottom: 0.5rem;
-  font-weight: 500;
+.h1,
+.h2,
+.h3,
+.h4,
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.2;
 }
 
-.h1, h1 {
+.h1,
+h1 {
   font-size: 2.5rem;
 }
 
-.h2, h2 {
+.h2,
+h2 {
   font-size: 2rem;
 }
 
-.h3, h3 {
+.h3,
+h3 {
   font-size: 1.75rem;
 }
 
-.h4, h4 {
+.h4,
+h4 {
   font-size: 1.5rem;
 }
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -146,7 +149,14 @@ svg {
   margin-left: -15px;
 }
 
-.col-12, .col-6, .col-lg-3, .col-lg-6, .col-md-10, .col-md-3, .col-md-8, .col-sm-4 {
+.col-12,
+.col-6,
+.col-lg-3,
+.col-lg-6,
+.col-md-10,
+.col-md-3,
+.col-md-8,
+.col-sm-4 {
   position: relative;
   width: 100%;
   padding-right: 15px;
@@ -204,79 +214,37 @@ svg {
   }
 }
 
-.bg-white {
-  background-color: #fff !important;
-}
-
 .text-center {
   text-align: center !important;
-}
-
-/* Colours */
-
-.pink {
-  color: #ce9ffc !important;
 }
 
 .purple {
   color: #7367f0 !important;
 }
 
-/* Main */
-
-* {
-  font-family: "Quicksand", sans-serif;
-  font-display: block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-*:focus {
-  outline-color: #41dab4;
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-}
-
-body {
-  background-color: #f7f7fc;
-  font-weight: 400;
-  font-size: 1.25em;
-  margin: 0;
-  color: #2b303a;
-}
-
-h1, h2, h3, h4, p, a {
-  font-weight: 500;
-  margin-top: 0;
-}
-
-h1, .h1 {
+h1,
+.h1 {
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 500;
   padding: 0 64px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 2em;
   font-weight: 400;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 1.5em;
   font-weight: 300;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 1.25em;
   font-weight: 300;
-  margin: 0;
-}
-
-p {
-  margin: 0;
 }
 
 .semi-bold {
@@ -287,49 +255,52 @@ p {
   font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-}
-
-code {
-  font-family: monospace !important;
-}
-
 @media (max-width: 1199.98px) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 2.5em;
     padding: 0 32px;
+    font-weight: 500;
   }
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 1.5em;
     font-weight: 400;
   }
-  h3, .h3 {
+  h3,
+  .h3 {
     font-size: 1.25em;
     font-weight: 400;
   }
-  h4, .h4 {
+  h4,
+  .h4 {
     font-size: 1em;
     font-weight: 400;
   }
 }
 
 @media (max-width: 575.98px) {
-  h1, .h1 {
+  h1,
+  .h1 {
     font-size: 2em;
     padding: 0 16px;
+    font-weight: 500;
   }
-  h2, .h2 {
+  h2,
+  .h2 {
     font-size: 1.25em;
   }
-  h3, .h3, h4, .h4 {
+  h3,
+  .h3,
+  h4,
+  .h4 {
     font-size: 1em;
   }
 }
 
 .gradient-text {
   color: #7367f0;
-  background: -webkit-linear-gradient(45deg, #ce9ffc 0%, #7367f0 100%);
+  background: -webkit-linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
   background: -moz-linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
   background: -ms-linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
   background: -o-linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
@@ -371,6 +342,18 @@ code {
   padding: 8px;
 }
 
+.icon-link {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+.icon-link > img {
+  vertical-align: bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .icon-link:hover {
   opacity: 0.9;
 }
@@ -380,7 +363,7 @@ code {
   border: none;
   margin-top: 16px !important;
   margin-bottom: 16px !important;
-  background-color: #ffffff;
+  background-color: #f1effd;
   border-radius: 4px;
   -webkit-box-shadow: 0 9px 14px 0 rgba(43, 48, 58, 0.09);
   box-shadow: 0 9px 14px 0 rgba(43, 48, 58, 0.09);
@@ -415,6 +398,12 @@ code {
   .card-header {
     display: block;
   }
+}
+
+.gap-8 {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
 }
 
 footer {
