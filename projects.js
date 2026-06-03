@@ -2,7 +2,7 @@ exports.array = [
   {
     name: "CharGen",
     url: "https://char-gen.com/",
-    desc: "Platform for generating AI images based on D&D character sheets and custom prompts with over 500 monthly active users and over 10,000 sign ups. Includes integration with AWS Cognito for user authentication and payments processing with Stripe. Built with Next.js and TypeScript, and hosted on AWS via SST."
+    desc: "AI toolkit for tabletop RPG players and Dungeon Masters. Combining an AI art generation studio - covering characters, NPCs, monsters, landscapes, battlemaps, items, spells, and 3D printable miniatures - with a suite of 16 text generators for world-building (names, taverns, settlements, dungeons, factions, and more). A session recording and summarisation feature transcribes and recaps gameplay sessions via Discord bot integration or audio upload. Generated entities are stored in a persistent World Codex, allowing campaigns to be built and linked across sessions. The platform has grown to over 43,000 users with more than 830,000 images generated, and operates on a freemium subscription model."
   },
   {
     name: "Aver",
